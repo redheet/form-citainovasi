@@ -76,6 +76,17 @@
             />
           </div>
           <div class="form-group">
+            <label for="country">Country</label>
+            <input
+              class="form-control"
+              type="text"
+              name="country"
+              id="country"
+              placeholder="Country"
+              required
+            />
+          </div>
+          <div class="form-group">
             <label for="leader_name">Leader Name</label>
             <input
               class="form-control"
@@ -109,24 +120,24 @@
             />
           </div>
           <div class="form-group">
-            <label for="team_name_1">Team Name 1</label>
+            <label for="team_name_1">Member Name 1</label>
             <input
               class="form-control"
               type="text"
               name="team_1"
               id="team_1"
-              placeholder="Team Name 1"
+              placeholder="Member Name 1"
               required
             />
           </div>
           <div class="form-group">
-            <label for="team_name_2">Team Name 2</label>
+            <label for="team_name_2">Member Name 2</label>
             <input
               class="form-control"
               type="text"
               name="team_2"
               id="team_2"
-              placeholder="Team Name 2"
+              placeholder="Member Name 2"
               required
             />
           </div>
@@ -152,7 +163,6 @@
               required
             />
           </div>
-
           <div class="form-group">
             <label for="loc">Categories</label>
             <select
@@ -163,14 +173,27 @@
             >
               <option value="" disabled selected hidden>Choose...</option>
               <option value="environmental">Environmental</option>
-              <option value="renewableenergy">Renewable Energy</option>
-              <option value="wastemanagement">Waste Management</option>
-              <option value="sustainableagriculture">
+              <option value="renewable energy">Renewable Energy</option>
+              <option value="waste management">Waste Management</option>
+              <option value="sustainable agriculture">
                 Sustainable Agriculture
               </option>
-              <option value="convenientdesignfordailylife">
+              <option value="convenient design for daily life">
                 Convenient Design for Daily Life
               </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="loc">Presentation Online</label>
+            <select
+              class="form-control"
+              name="presentation_online"
+              id="presentation_online"
+              required
+            >
+              <option value="" disabled selected hidden>Choose...</option>
+              <option value="Round 1">Round 1</option>
+              <option value="Round 2">Round 2</option>
             </select>
           </div>
           <div class="form-group">
